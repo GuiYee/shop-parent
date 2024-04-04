@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dc65eb5-4f10-4681-99fe-4c1819882121" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/feign/ProductFeignApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/config/RandomLoadBalancerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/config/RandomLoadBalancerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/shop-order-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/shop-order-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/OrderAppliaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/OrderAppliaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/src/main/java/com/example/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/target/classes/com/example/OrderAppliaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/target/classes/com/example/OrderAppliaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/target/classes/com/example/config/RandomLoadBalancerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/target/classes/com/example/config/RandomLoadBalancerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-order-server/target/classes/com/example/service/Impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop-order-server/target/classes/com/example/service/Impl/OrderServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +74,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -144,7 +159,7 @@
       <workItem from="1711862945682" duration="2107000" />
       <workItem from="1711865085762" duration="4504000" />
       <workItem from="1711869639172" duration="6007000" />
-      <workItem from="1712236629843" duration="5749000" />
+      <workItem from="1712236629843" duration="7003000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1711860561705</created>
@@ -174,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712243874945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="负载均衡策略Config">
+      <created>1712244122885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712244122885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +207,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="负载均衡策略Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="负载均衡策略Config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -92,7 +92,6 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.6.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.22" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.22" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.22" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
     <orderEntry type="module" module-name="shop-product-api" />
@@ -129,5 +128,13 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-cache:2.6.11" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.22" level="project" />
     <orderEntry type="library" name="Maven: com.stoyanr:evictor:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign.form:feign-form-spring:3.8.0" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign.form:feign-form:3.8.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.4" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign:feign-core:11.8" level="project" />
+    <orderEntry type="library" name="Maven: io.github.openfeign:feign-slf4j:11.8" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
   </component>
 </module>
