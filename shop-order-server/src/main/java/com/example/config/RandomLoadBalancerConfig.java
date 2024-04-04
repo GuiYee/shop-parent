@@ -11,6 +11,7 @@ import org.springframework.core.env.Environment;
 
 /*
 * product-service 负载均衡策略
+* 可自定义策略
 * */
 @LoadBalancerClient(name = "product-service",configuration = RandomLoadBalancerConfig.class)
 public class RandomLoadBalancerConfig {
