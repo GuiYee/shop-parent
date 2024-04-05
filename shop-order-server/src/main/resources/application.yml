@@ -1,10 +1,18 @@
 server:
   port: 8091
+  tomcat:
+    threads:
+      max: 10   # tomcat最大并发值修为10
 spring:
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 9999 # 和管控台交流的端口
+        dashboard: localhost:8080 # 指定控制台服务的地址
+      web-context-unify: false  #链路流控
   application:
     name: order-service
   datasource:
@@ -15,6 +23,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+feign:
+  sentinel:
+    enabled: true # 降级  当服务不可用 返回兜底数据或者提示信息
 #  jpa:
 #    properties:
 #      hibernate:

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 * */
 
 /*name 就是远程调用的服务名*/
-@FeignClient(name = "product-service",path = "/product")
+@FeignClient(name = "product-service",path = "/product",fallback = ProductFeignFallBack.class)
 public interface ProductFeignApi {
 
     //http://product-service/product/get?pid=1
